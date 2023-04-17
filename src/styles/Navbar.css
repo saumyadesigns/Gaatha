@@ -1,0 +1,98 @@
+.home-navbar{
+  background-color: #6D285F;
+}
+
+.tales-navbar{
+  background-color: #E57D07;
+}
+
+.shop-navbar{
+  background-color: #C41E1E;
+}
+
+.community-navbar{
+  background-color: #43678B;
+}
+
+
+
+header {
+display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Abhaya Libre", serif;
+  text-align: center;
+  background-color: #6D285F;
+  padding: 1vw;
+  background-image: url("../assets/navbar/header_bg.svg");
+  background-size:35% ;
+}
+#header_logo{
+      flex: 1;
+      display: flex;
+      justify-content: left;
+
+}
+#header_logo > img{
+
+    margin-left: 10%;
+}
+
+#nav{
+      flex: 1;
+
+}
+#search_bar{
+      flex: 1;
+
+}
+.search-form {
+  display: flex;
+  color: #F2E6AB;
+  justify-content: right;
+  margin-right: 10%;
+
+}
+
+.search-input {
+  flex: 0.3;
+  padding: 5px;
+}
+
+.search-button {
+  padding: 5px 10px;
+  background-color: #F2E6AB;
+  border: none;
+  border-radius: 0 20px 20px 0;
+  cursor: pointer;
+}
+.search-button > image {
+  height: 100%;
+  width: 100%;
+}
+input{
+      background-color: #F2E6AB;
+      border-width: 0;
+      border-radius: 20px 0 0 20px;
+      color: #6D285F;
+
+}
+
+nav ul {
+  list-style-type:none;
+  display: flex;
+}
+
+nav ul li {
+  flex: 1;
+  display: inline;
+}
+a {
+    font-size: 1.5vw;
+    color: #F2E6AB;
+    text-decoration: none;
+}
+
+a:hover{
+  transform: scale(1.5);
+}

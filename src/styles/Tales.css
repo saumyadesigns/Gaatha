@@ -1,0 +1,306 @@
+.body{
+    margin: 0;
+    padding: 0;
+}
+.Tales_circle_top{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: url("../assets/Group\ 11302.png");
+  top:117%;
+  left: 115%;
+  transform: translate(-50%,-50%);
+}
+.Tales_circle_bottom{
+    background-image: url("../assets/Group\ 11305.png");
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+    position:absolute;
+    background-repeat: no-repeat;
+    /* //transform: translate(0%,-50%); */
+    z-index:1;
+    margin-top:-86%;
+    /* //background-color: #43678B; */
+
+  }
+
+.Tales_container{
+      box-shadow:inset 0px 10px 30px rgba(0, 0, 0, 0.25); /* updated box shadow with increased offset values */
+    display: flex;
+    background-color:#E57D07;
+    position: relative;
+    width: 100%;
+    height: 60vw;
+    padding: 0px;
+    overflow: hidden;
+    z-index: 0;
+}
+.Tales_bg{
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 60vw;
+    background-image: url("../assets/home/home_bg.png");
+    background-size: contain;
+    mix-blend-mode: multiply;
+
+}
+.Tales_logo{
+    flex: 1;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flexbox;
+    overflow: hidden;
+    justify-content: center;
+    /* background-image: url("../assets/Tales.png"); */
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.n1{
+    background-image: url("../assets/Layer_3.png");
+    height: 60vw;
+    width: 100%;
+    position:absolute;
+    background-repeat: no-repeat;
+    transform: translate(-50%,-50%);
+}
+
+.rectangle {
+    width: 861px;
+    height: 554px;
+    background-color: #43678B;
+    border-radius: 50px;
+    left: 100%;
+    top: 100%;
+    display:flex;
+    flex-direction: column;
+    transform: translate(60%,30%);
+    box-shadow:outset 0px 10px 30px rgba(0, 0, 0, 0.25);
+    align-items: left;
+  }
+.logo_Tales{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    background-image: url("../assets/Tales.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+
+.Tales_mand_container{
+  position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+.Tales_rotating_mandala{
+    position: absolute;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    background-image: url("../assets/home/mandala.png");
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+    animation-name: rotate_mandala;
+     animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes rotate_mandala{
+    0%{
+        transform: rotate(0deg) ;
+        opacity: 0.5;
+        z-index: 2;
+    }
+    100%{
+        transform: rotate(360deg);
+        opacity: 0.5;
+        z-index: 2;
+    }
+}
+
+.comm_desc{
+    flex: 1;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#cd{
+    flex:0.1;
+    width: 70%;
+    margin: 1vw;
+    font-size: 1.52vw;
+    font-family: abhaya libre;
+    font-weight: bold;
+    color: #F5EBB3;
+}
+
+#exp{
+    flex: 0.8;
+    width: 90%;
+    font-size: 25px;
+    font-family: abhaya libre;
+    font-weight: bold;
+    color: #F5EBB3;
+    height: 100%;
+    margin-left: 4vw;
+    margin-right: vw;
+    transform: translate(0,-20%);
+    
+}
+
+#tr{
+    font-size: 25px;
+    font-family: abhaya libre;
+    font-weight: bold;
+    color: #F5EBB3;
+    transform: translate(32%,600%);
+}
+/* 
+.lady{
+    background-image: url("../assets/lady.png");
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    transform: translate(20%);
+
+} */
+
+#exph{
+    font-family: abhaya libre;
+    color: #F5EBB3;
+    font-size: 60px;
+    flex: 0.2;
+    height:100%;
+    margin-left: 4vw;
+    margin-right: 4vw;
+}
+
+.rectangle1{
+    width: 320px;
+    height: 554px;
+    background-color: #43678B;
+    border-radius: 50px;
+    left: 100%;
+    top: 100%;
+    transform: translate(40%,-74%);
+    box-shadow:outset 0px 10px 30px rgba(0, 0, 0, 0.25);
+    align-items: center;
+
+}
+
+.like
+{
+    background-image: url("../assets/Group 11304.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+/* #am{
+    font-family: abhaya libre;
+    color: #F5EBB3;
+    font-size: 15px;
+    transform: translate(60%,65%);
+    width: 50%;
+    margin-top: 5vw;
+    
+}
+/*  */
+.experience_container{
+    display: flex;
+    flex-direction: column;
+    background-color:#F2E6AB;
+    position: relative;
+    width: 100%;
+    height: 60vw;
+    padding: 0px;
+    overflow: hidden;
+} 
+
+.haathi{
+    background-image: url("../assets/Haathi.png");
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    transform: translate(20%);
+    z-index: 100;
+    background-size: 45%;
+    top: 13%;
+    left: 30%;
+
+}
+
+.ullu{
+    background-image: url("../assets/Ullu.png");
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    transform: translate(20%);
+    z-index: 100;
+    background-size: 25%;
+    top: 105%;
+    left: 58%;
+
+}
+
+.first_story{
+    background-image: url("../assets/First\ story.png");
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    transform: translate(20%);
+    z-index: 100;
+    background-size: 35%;
+    top: 150%;
+    right: 10%;
+
+}
+
+.second_story{
+    background-image: url("../assets/Second\ story.png");
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    transform: translate(20%);
+    z-index: 100;
+    background-size: 35%;
+    top: 150%;
+    left: 33%;
+
+}
+
+.third_story{
+    background-image: url("../assets/Third\ story.png");
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    transform: translate(20%);
+    z-index: 100;
+    background-size: 35%;
+    top: 195%;
+    left: 12%;
+
+}
