@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import {Link, useLocation } from "react-router-dom";
 import "../styles/Navbar.css";
-import bgnavbarimg from "../assets/navbar/navbarbg.png"
 
 
 function Navbar() {
@@ -9,24 +8,40 @@ function Navbar() {
 
   return (
     
-    <div className="navbar" >
-    <div className="bgnav">
-        <img src={bgnavbarimg}>
-        </img>
-    </div>
-    
-    
-            <div className='links'>
+    <header>
+      <div id="header_logo">
+        <img src="../assets/navbar/logo.png"></img>
+      </div>
+      <div id="nav">
+        <nav>
+          <ul>
+            <li><a><Link to="/"> Home </Link></a></li>
+            <li><a href="Tales"><Link to="Tales"> Tales </Link></a></li>
+            <li><a href="Shop"><Link to="Shop"> Shop </Link></a></li>
+            <li><a href="About"><Link to="About"> About </Link></a></li>
+            <li><a href="Community"><Link to="Community"> Community </Link></a></li> 
+
+            {/*<div className='links'>
                 <Link to ="/"> Home </Link>
                 <Link to ="About"> About </Link>
                 <Link to ="Tales"> Tales </Link>
                 <Link to ="Shop"> Shop </Link>
-                <Link to ="Community"> Community </Link>
-            
-            </div>
-        
-        </div>
+               <Link to ="Community"> Community </Link>*/}
 
+          </ul>
+        </nav>
+      </div>
+      <div id="search_bar">
+        <form class="search-form">
+          <input type="text" placeholder="Search..." class="search-input"/>
+            <button type="submit" class="search-button">
+              <img src="../assets/Navbar/search.png"/>
+            </button>
+        </form>
+
+      </div>
+
+    </header>
     
   )
 }
