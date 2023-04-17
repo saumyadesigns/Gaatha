@@ -4,6 +4,8 @@
     background-color: var(--parpal);
     display:flex;
     font-family: "Abhaya Libre";
+    position: absolute;
+   overflow: hidden;
     
 }
 
